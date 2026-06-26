@@ -52,7 +52,7 @@ section.Imagem {
     color: white;
 }
 section.Imagem > p {
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.418);
     display: inline-block;
     padding: 20px;
 }
