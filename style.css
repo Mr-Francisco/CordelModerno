@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+header > h1{
+     font-family: "Elms Sans", sans-serif;
+    margin: 5px;
+    font-size: 6.5vw;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+header> p{
+    margin: 5px;
+    font-family: "Elms Sans", sans-serif;
+    font-variant: unset;
+    
+}
+
+main{
+    background-color: darkgray;
+    line-height: 6vw;
+    margin: auto;
+
+}
+section{
+     font-size: 4vw;
+    padding: 60px;
+    font-family: "Atma", system-ui;
+  font-weight: 530;
+  font-style: italic;
+}
+
+section.Normal{
+   
+    background-color: white;
+}
+section.Imagem {
+    padding: 70px;
+    color: white;
+}
+section.Imagem > p {
+    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    padding: 20px;
+}
+
+section.Imagem#M1 {
+ background-image: url('imagem/background001.jpg');
+ background-position:  center right;
+ background-size: cover;
+ background-attachment: fixed; 
+}
+
+section.Imagem#M2 {
+ background-image: url('imagem/background002.jpg');
+ background-position:  center right;
+ background-size: cover;
+ background-attachment: fixed;
+ box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.432); 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: "Elms Sans", sans-serif;
+    font-variant: small-caps;
+}
